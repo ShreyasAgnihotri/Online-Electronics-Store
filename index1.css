@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+*{
+    padding : 0;
+    margin : 0;
+    list-style : none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav{
+    background :#051136;
+    width: 100%;
+}
+#flip{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 20px;
+    background :#0e2565;
+    cursor: pointer;
+    border: solid 1px #3903e9;
+}
+#logo{
+    background: #16244e;
+    display: none;
+    padding: 50px;
+    color: white;
+    font-size:  35px;
+    font-weight: bold;
+}
+p{
+    color: white;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 13px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.image-container {
+    position: relative;
+    margin: auto;
+    
+}
+.next {
+    right: 0;
+}
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    margin-top: -25px;
+}
+.captionText {
+    color: #000000;
+    font-size: 18px;
+    position: absolute;
+    padding: 20px 30px;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+   
+}
+.fa {
+    font-size: 32px;
+    color:white;
+}
+   
+.fa:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    color: white;
+}
+   
+.footerdot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+   
+.active,
+.footerdot:hover {
+    background-color: black;
+}
+h3{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 60px;
+    color :#4f65a5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color :#4f65a5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color:#0c093c;
+    margin-top: 70px;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .social{
+    display: inline-block;
+    padding-right: 5px !important;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .fa{
+      font-size:32px;
+  }
+  .clearfix {
+    clear: both;
+  }
+  

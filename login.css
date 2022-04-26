@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+#image-text{
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 80px;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  color: #ffffff;
+  transform: translate(-30%, -30%);
+  text-align: center;
+}
+#background{
+    background-image: url("backgroundimg.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.blur {
+  background: rgba(30, 6, 83, 0.2); 
+  height: 500px;
+	width: 100%;
+  backdrop-filter: blur(8px);
+}
+body{
+  font: normal 18px 'Open Sans', sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+h2{
+font: normal 4em 'Playfair Display SC', serif;
+text-align:center;
+}
+header{
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#container{
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+	border-top-right-radius: 20px
+}
+p{
+  padding-left: 20px;
+}
+input{
+	padding-left: 20px;
+}
+h3{
+  text-align: center;
+  color: #e15a5a;
+  margin-top: 50px;
+  
+}
+
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+#submit{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+height: 40px;
+margin-bottom: 25px;
+margin-top: 5px;
+margin-left: 20px;
+}
+#submit{
+  margin-left:18px;
+}
+#submit:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+#form_id {
+  max-width: 500px;
+}
